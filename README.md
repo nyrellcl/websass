@@ -1,6 +1,6 @@
 # Welcome!
 
-This project is for developing and updating my own portfolio website
+This project is for developing and updating my own portfolio website (https://www.nyrellcl.com/)
 It includes my past projects and new projects that I've completed. This is to showcase my skills and development as a front-end engineer and as a developer. 
 
 # Purpose
