@@ -10,4 +10,4 @@ I also love the fact that I have full control over this project and I can experi
 
 # Tech Stack
 
-This was built using HTML, CSS and SASS pre-processor. There is JavaScript for when the page loads the body fades in smoothly. As well as the intro section where there is a text animation showing who I am as a developer. 
+This was built using HTML, CSS and SASS pre-processor. There is JavaScript for when the page loads the body fades in smoothly. As well as the intro section where there is a text animation showing who I am as a developer. There's also a feature for when the user scrolls down and my description and projects slide in from the left of the screen. This was to implement a more smooth experience for the user and the website. 
