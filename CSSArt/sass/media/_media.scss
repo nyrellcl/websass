@@ -1,0 +1,118 @@
+
+
+@media screen and (min-width: 390px) and (max-width: 414px){
+
+    #cactus, #spaceship, #boba{
+        flex-direction: column;
+        gap: 2rem;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+
+    #art{
+        overflow-x: hidden;
+        .description{
+            h2{
+                font-size: 2rem;
+            }
+            p{
+                width: 100%;
+                text-align: center;
+                font-size: 1.1rem;
+                line-height: 28px;
+                
+            }
+        }
+    }
+
+    img{
+        width: 300px;
+        height: 300px
+    }
+    .explore-container{
+        font-size: 2.25rem;
+        .left-page{
+            left: 2.5vmin;
+            top: 30vmin;
+        }
+        .middle-page{
+            top: 55vmin;
+            left: 40vmin;
+        }
+        .right-page{
+            top: 85vmin;
+            right: 18vmin;
+        }
+        .explore-btn{
+            bottom: 25vmin;
+            left: 25vmin;
+        }
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    #ham-icon {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        align-items: flex-end;
+        justify-content: flex-start;
+        margin-right: 1rem;
+    }
+
+    .ham-container{
+        display: flex;
+        padding: 1rem;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+        position: relative;
+        bottom: 70vmin;
+    }
+}
+
+/*@media screen and (max-width: 768px){
+    #cactus, #spaceship, #boba{
+        gap: 2rem;
+    }
+
+    #art{
+        .description{
+            p{
+                width: 100%;
+                font-size: 1.25rem;
+                text-align: center;
+            }
+            h2{
+                font-size: 2.1rem;
+            }
+    }
+}
+
+    img{
+        width: 320px;
+        height: 320px;
+    }
+
+    .explore-container{
+        .left-page{
+            left: 2vmin;
+            bottom: 65vmin;
+        }
+        .middle-page{
+            left: 65vmin;
+            bottom: 53vmin;
+        }
+        .right-page{
+            right: 10vmin;
+        }
+        .explore-btn{
+            left: 45vmin;
+        }
+    }
+}*/
