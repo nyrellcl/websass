@@ -1,0 +1,25 @@
+/*This creates a function to create classes that already have padding and margin configurations ranging from
+1rem to 5rem. all values are in rem */
+$spaceamounts: (1,2,3,4,5);
+
+@each $space in $spaceamounts{
+    .m-#{$space}{
+        margin: #{$space}rem;
+    }
+    .my-#{$space}{
+        margin: #{$space}rem auto;
+    }
+
+    .p-#{$space}{
+        padding: #{$space}rem;
+    }
+
+    .px-#{$space}{
+        padding: 0 #{$space}rem;
+    }
+
+    .py-#{$space}{
+        padding: #{$space}rem 0;
+    }
+}
+//
