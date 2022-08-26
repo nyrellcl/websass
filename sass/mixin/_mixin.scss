@@ -1,0 +1,52 @@
+
+
+/*This creates a function to create classes that already have padding and margin configurations ranging from
+1rem to 5rem. all values are in rem */
+$spaceamounts: (1,2,3,4,5);
+
+@each $space in $spaceamounts{
+    .m-#{$space}{
+        margin: #{$space}rem;
+    }
+    .my-#{$space}{
+        margin: #{$space}rem 0;
+    }
+
+    .p-#{$space}{
+        padding: #{$space}rem;
+    }
+
+    .px-#{$space}{
+        padding: 0 #{$space}rem;
+    }
+
+    .py-#{$space}{
+        padding: #{$space}rem 0;
+    }
+}
+//
+
+//Just for when i need things to be flex'd right away 
+.flex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+//
+
+/*This is a part of the fade in animation of the projects
+this creates a mixin with a prefix that accepts values and conifgures it to the proper browser
+such as mozilla or firefox. Instead of typing out -moz-[insert property] or -web-kit-animation etc...*/
+@mixin prefix($declarations, $prefixes: ()) {
+    @each $property, $value in $declarations {
+      @each $prefix in $prefixes {
+        #{'-' + $prefix + '-' + $property}: $value;
+      }
+  
+      // Output standard non-prefixed declaration
+      #{$property}: $value;
+    }
+  }
+
+
+
