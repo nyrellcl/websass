@@ -11,3 +11,9 @@ I also love the fact that I have full control over this project and I can experi
 # Tech Stack
 
 This was built using HTML, CSS and SASS pre-processor. There is JavaScript for when the page loads the body fades in smoothly. As well as the intro section where there is a text animation showing who I am as a developer. There's also a feature for when the user scrolls down and my description and projects slide in from the left of the screen. This was to implement a more smooth experience for the user and the website. 
+
+#Pain Points
+- Images for the projects are too big. Need to change to a smaller file size, change into SVG, or redesign the pictures in Figma
+- Media queries need more refining. Although the website looks good on all devices, I want it to have better responsiveness
+- Project layout seems to clustered. I will change to a swiper container which only includes 4 best/most recent projects on the home page which will direct to the new Project page
+- Need case studies and design process for each of my projects. Project.html -->case-studies folder --> (case studies files.html)
