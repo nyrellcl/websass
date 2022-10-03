@@ -10,13 +10,6 @@ const swiper = new Swiper('.swiper', {
         modifier: 1,
         slideShadows: true
     },
-    /*effect: "cube",
-    cubeEffect:{
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 55,
-        shadowScale: 0
-    },*/
     direction: 'horizontal',
     loop: true,
     speed: 500,
